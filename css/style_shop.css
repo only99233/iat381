@@ -1,0 +1,93 @@
+/* Shop Styling */
+.content-shop {
+	padding-top: 150px;
+	overflow: auto;
+}
+
+.row {
+	width: 100%;
+	height: 250px;
+	margin: 0 auto;
+	/* outline: 2px dotted #462372; */
+}
+
+.column {
+	width: 50%;
+	height: 215px;
+	float: left;
+	min-height: 1px;
+	min-width: 320px; /* min-width of content divided by 2 */
+	padding: 0 1%;
+	/*outline: 2px dotted #EEE;*/
+}
+
+#row-name-content, #row-boat-img {
+	width: 96.875%;
+	float: left;
+}
+
+#side-bar {
+	width: 3.125%;
+	float: left;
+}
+
+.side-bar-left, .side-bar-right {
+	display: block;
+	height: 215px;
+	float: left;
+	opacity: 0;
+	cursor: pointer;
+	-webkit-transition: all .3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.row:hover .side-bar-right {
+	opacity: 1;
+	
+}
+
+.row:hover .side-bar-left {
+	opacity: 1;	
+}
+
+/* Images of boats */
+.boat {
+	display: block;	
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 16px;
+}
+
+/* Text */
+.row-name h1, #row-name-content h1 {
+	text-align: center;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 200%;
+	color: #FFF;
+	margin-top: 55px;
+}
+.row-name h2 {
+	text-align: center;
+	font-family: 'Open Sans';
+	font-weight: 300;
+	font-size: 80%;
+	color: #b2b2b2;
+	margin-top: -20px;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
