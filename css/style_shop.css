@@ -1,27 +1,10 @@
 /* Shop Styling */
-.content-shop {
+.shop {
 	padding-top: 150px;
 	overflow: auto;
 }
 
-.row {
-	width: 100%;
-	height: 250px;
-	margin: 0 auto;
-	/* outline: 2px dotted #462372; */
-}
-
-.column {
-	width: 50%;
-	height: 215px;
-	float: left;
-	min-height: 1px;
-	min-width: 320px; /* min-width of content divided by 2 */
-	padding: 0 1%;
-	/*outline: 2px dotted #EEE;*/
-}
-
-#row-name-content, #row-boat-img {
+#item {
 	width: 96.875%;
 	float: left;
 }
@@ -62,7 +45,7 @@
 }
 
 /* Text */
-.row-name h1, #row-name-content h1 {
+#item h1 {
 	text-align: center;
 	font-family: 'Open Sans';
 	font-weight: 700;
@@ -70,7 +53,8 @@
 	color: #FFF;
 	margin-top: 55px;
 }
-.row-name h2 {
+
+#item h2 {
 	text-align: center;
 	font-family: 'Open Sans';
 	font-weight: 300;
